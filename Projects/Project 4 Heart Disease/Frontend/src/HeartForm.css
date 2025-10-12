@@ -1,0 +1,106 @@
+/* Container */
+.heart-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f9;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card */
+.heart-card {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  max-width: 450px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.heart-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Title */
+.heart-title {
+  text-align: center;
+  color: #222;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Form */
+.heart-form .form-group {
+  margin-bottom: 16px;
+}
+
+.heart-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.heart-form input,
+.heart-form select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: border 0.3s ease;
+}
+
+.heart-form input:focus,
+.heart-form select:focus {
+  border-color: #007bff;
+}
+
+/* Button */
+.submit-btn {
+  width: 100%;
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.1s ease-in-out;
+}
+
+.submit-btn:hover {
+  background: #0056b3;
+}
+
+.submit-btn:active {
+  transform: scale(0.98);
+}
+
+/* Result */
+.result {
+  margin-top: 20px;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.result-danger {
+  background: #ffe2e2;
+  color: #d9534f;
+  border: 1px solid #d9534f;
+}
+
+.result-safe {
+  background: #e2ffe9;
+  color: #28a745;
+  border: 1px solid #28a745;
+}

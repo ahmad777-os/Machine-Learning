@@ -1,0 +1,123 @@
+📘 Pandas Learning Roadmap (Beginner to Advanced)
+🔰 1. Introduction to Pandas
+What is Pandas?
+
+Series vs DataFrame
+
+Importing Pandas: import pandas as pd
+
+📥 2. Creating Data Structures
+Creating a Series
+
+From list, dictionary, NumPy array
+
+Creating a DataFrame
+
+From list of dicts, nested lists, NumPy arrays
+
+📄 3. Reading and Writing Files
+read_csv(), to_csv()
+
+read_excel(), to_excel()
+
+read_json(), to_json()
+
+read_sql(), read_html(), read_clipboard()
+
+🧭 4. Exploring Data
+.head(), .tail()
+
+.info(), .describe()
+
+.shape, .columns, .index
+
+Checking data types: .dtypes
+
+🧹 5. Data Selection & Indexing
+Selecting columns: df['col'], df.col
+
+Selecting rows: .loc[], .iloc[]
+
+Slicing: df[0:5]
+
+Boolean indexing / filtering
+
+🔧 6. Data Cleaning
+Handling missing data
+
+isnull(), fillna(), dropna()
+
+Handling duplicates
+
+duplicated(), drop_duplicates()
+
+Renaming columns: rename()
+
+Changing data types: astype()
+
+🧱 7. Data Manipulation
+Sorting: sort_values(), sort_index()
+
+Adding/removing columns: df['new'] = ..., drop()
+
+Applying functions: apply(), map(), lambda
+
+Replacing values: replace()
+
+String operations: .str.upper(), .str.contains()
+
+🧮 8. Aggregation & Grouping
+groupby()
+
+Aggregation functions: sum(), mean(), count(), agg()
+
+Multi-level grouping
+
+Pivot tables: pivot_table()
+
+🔄 9. Merging & Joining DataFrames
+concat() – stack DataFrames vertically/horizontally
+
+merge() – SQL-style joins (left, right, inner, outer)
+
+join() – join on index
+
+🔁 10. Reshaping Data
+melt() – unpivoting
+
+pivot() – pivoting
+
+stack() and unstack()
+
+transpose() – switching rows and columns
+
+📊 11. Time Series in Pandas
+Date-time objects: pd.to_datetime()
+
+Working with DatetimeIndex
+
+Resampling time series data
+
+Rolling averages
+
+🎯 12. Advanced Topics
+Window functions (rolling, expanding)
+
+Categorical data
+
+MultiIndex (hierarchical indexing)
+
+Efficient memory usage: df.memory_usage()
+
+Performance tips with large datasets
+
+🛠️ 13. Real Projects (for practice)
+Analyze Titanic dataset
+
+Sales data analysis
+
+Student grades report
+
+COVID-19 time series data
+
+Netflix movie ratings explorer

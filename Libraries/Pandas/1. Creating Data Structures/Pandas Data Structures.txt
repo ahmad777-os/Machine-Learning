@@ -1,0 +1,6 @@
+🧱 Pandas Data Structures
+Pandas provides two main data structures:
+
+✅ 1. Series → One-dimensional (like a single column)
+✅ 2. DataFrame → Two-dimensional (like an Excel sheet or a full table)
+We’ll go over both now with examples.
